@@ -1,13 +1,13 @@
 export class Producto {
-    _id?: number;
-    nombre: string;
+    _id?: string;
+    producto: string;
     categoria: string;
     ubicacion: string;
     precio: number;
 
     // inicializando las variables
-    constructor(nombre: string, categoria: string, ubicacion: string, precio: number){
-        this.nombre = nombre;
+    constructor(producto: string, categoria: string, ubicacion: string, precio: number){
+        this.producto = producto;
         this.categoria = categoria;
         this.ubicacion = ubicacion;
         this.precio = precio;
